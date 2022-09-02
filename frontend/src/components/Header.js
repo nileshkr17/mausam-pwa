@@ -27,7 +27,7 @@ const Header = () => {
             <li className="nav-item">
               <a target="_blank" rel="noopener" className="nav-link text-white disabled" href="https://twitter.com/nilesh17kr"><i className="fa-brands fa-twitter"></i> Twitter</a>
             </li>
-            <button type="button" class="btn btn-primary"> Login <i class="fa-solid fa-user px-1"></i></button>
+            <button type="button" class="btn btn-primary"> Login <i className="fa-solid fa-user px-1"></i></button>
           </ul>
         </Navbar.Collapse>
       </Container>
