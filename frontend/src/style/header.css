@@ -1,0 +1,30 @@
+#banner::after {
+    position: absolute;
+    content: "";
+    top: 170px;
+    right: 90%;
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    border: 2px solid #ededed;
+    display: block;
+    border-color: #8f8d8d;
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+.app-text{
+    background-color: black;
+
+}
+.discord-banner {
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    transition: all linear 0.3s;
+    --tw-bg-opacity: 1;
+    background-color: rgba(88, 101, 242, var(--tw-bg-opacity));
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}

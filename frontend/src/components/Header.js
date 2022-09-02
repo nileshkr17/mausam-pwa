@@ -1,10 +1,13 @@
 import React from 'react'
 import { NavDropdown ,Navbar,Nav,Container,Button } from 'react-bootstrap'
+import '../style/header.css'
 
 const Header = () => {
   return (
     <header>
-     
+       
+     <section id="banner">
+        
     <Navbar bg="primary" expand="lg" fixed-top navbar-dark>
          <Container>
         <a href="/" className="navbar-brand text-white">Mausam <i class="fa-solid fa-cloud"></i></a>
@@ -29,8 +32,7 @@ const Header = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
-
+    </section>
     </header>
   )
 }
