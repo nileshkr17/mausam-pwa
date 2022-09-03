@@ -8,12 +8,12 @@ import Card from './components/Card';
 
 const App = () => {
   return (
-    <>
+    <body>
      <Header/> 
     <Main/>
     <Card/>
     <Footer/>
-    </>
+    </body>
   )
 }
 

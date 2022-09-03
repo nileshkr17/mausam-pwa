@@ -1,11 +1,4 @@
 
-
-
-
-html {
-  background: #eee;
-}
-
 .box {
   width: 25vw;
   height: 60vh;
@@ -18,8 +11,8 @@ html {
   position: relative;
   overflow: hidden;
   transform: translate3d(0, 0, 0);
-  min-width: 20rem;
-  min-height: 35rem;
+  /* min-width: 20rem;
+  min-height: 35rem; */
 }
 
 .wave {
@@ -36,6 +29,7 @@ html {
   border-radius: 43%;
   animation: drift 3000ms infinite linear;
   z-index: 1;
+  
 }
 
 .wave.-three {
@@ -56,7 +50,7 @@ html {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+ 
   z-index: 11;
   transform: translate3d(0, 0, 0);
 }
@@ -77,7 +71,7 @@ html {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 60vh;
+  height: 70vh;
   z-index: 4;
 }
 
@@ -85,12 +79,15 @@ html {
   margin-top: -5.5rem;
   text-align: center;
   font-weight: 800;
-  font-size: 5rem;
+  font-size: 3.5rem;
+  
   text-transform: capitalize;
 }
 
 .fa-street-view {
   animation: rotates 3s linear infinite ease;
+  padding-right: 10px;
+
 }
 
 @keyframes rotates {
@@ -146,35 +143,92 @@ html {
       transform: scale(1.5)
   }
 }
-
-@media (max-width: 600px) {
-  .box {
-      width: 90vw;
-      height: 80vh;
-  }
-
-  .wave {
-      top: 85%;
+@media screen and (max-width: 600px) {
+  .box{
+      height: 70vh;
+      width: 80vw;
+      right: 36rem;
   }
 
   #weathercon {
-      font-size: 5em;
-  }
-
-  .info {
-      font-size: 1.5em;
-  }
+    font-size: 2em;
 }
 
-@media (max-width: 500px) {
-  .box {
-      height: 80vh;
+.inputData{
+  font-size: 15px;
+  height: 1rem;
+  margin-top: 2rem;
+  
+}
+.inputField::placeholder{
+  font-size: 15px;
+  border: none;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+
+}
+.info{
+  padding: 5px;
+  
+}
+.wave {
+  top: 150%;
+}
+.location {
+  margin-top: -5.5rem;
+  text-align: center;
+  font-weight: 800;
+  font-size: 2rem;
+  
+  text-transform: capitalize;
+}
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 967px) and (orientation : portrait) {
+  .box{
+      height: 70vh;
+      width: 80vw;
+      right: 36rem;
   }
 
-  .wave {
-      top: 115%;
-  }
+  #weathercon {
+    font-size: 2em;
 }
+
+.inputData{
+  font-size: 15px;
+  height: 1rem;
+  margin-top: 2rem;
+  
+}
+.inputField::placeholder{
+  font-size: 15px;
+  border: none;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+
+}
+.info{
+  padding: 5px;
+  
+}
+.wave {
+  top: 150%;
+}
+.location {
+  margin-top: -5.5rem;
+  text-align: center;
+  font-weight: 800;
+  font-size: 2rem;
+  
+  text-transform: capitalize;
+}
+}
+
+
 
 body > span {
   width: 100vw;
@@ -192,12 +246,14 @@ body > span {
 
 .inputField {
   width: 80%;
-  height: 20px;
-  margin: auto;
+  height: 50px;
+  margin-top:40px ;
   border-radius: 5rem;
+  border: none;
   padding: 1rem 1rem;
   outline: none;
-  font-size: 1.5rem;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .errorMsg {
