@@ -173,7 +173,7 @@
   
 }
 .wave {
-  top: 150%;
+  top: 130%;
 }
 .location {
   margin-top: -5.5rem;
@@ -183,6 +183,17 @@
   
   text-transform: capitalize;
 }
+}
+
+.weathercon {
+  height: 55%;
+  color: #d36326;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  margin-top: 40px;
+  margin-bottom: -20px;
 }
 
 

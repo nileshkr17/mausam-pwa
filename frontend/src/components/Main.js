@@ -23,6 +23,7 @@ const Main = () => {
         fetchApi();
       },[search] )
 
+      
 
   return (
     <>
@@ -39,12 +40,15 @@ const Main = () => {
 
         { !city ? (
             <div class="alert alert-dismissible alert-danger my-5">
-            <strong>Oh snap!</strong> <a href="#" class="alert-link">Check your internet</a> and try submitting again with valid city name.
+            <strong>Oh snap!</strong> <a href="/" class="alert-link">Check your internet</a> and try submitting again with valid city name.
           </div>
           ) : (
             
             <div>
-              
+              <div className="weathercon">
+              {/* style={{marginTop: present ? 10 : 0 }} */}
+              <i class="fas fa-sun fa-spin"></i>
+                </div>
               <div className='info'>
         <h2 className='location'>
         <i className="fa-sharp fa-solid fa-street-view"></i>{search}
