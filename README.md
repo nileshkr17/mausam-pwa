@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+![](https://ik.imagekit.io/b4vg9w4wx/web_QSQpli3xE.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1662396017964)
+![](https://ik.imagekit.io/b4vg9w4wx/phone_nXVOTAAOp.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1662396017909)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
